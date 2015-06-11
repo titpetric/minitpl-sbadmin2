@@ -1,0 +1,11 @@
+{
+	"site": {
+		"title": "MiniTPL SB Admin 2",
+		"dropdowns": [
+			"dropdowns/mail.tpl",
+			"dropdowns/notification.tpl",
+			"dropdowns/tasks.tpl",
+			"dropdowns/user.tpl"
+		]
+	}
+}

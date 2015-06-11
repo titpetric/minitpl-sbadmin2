@@ -1,0 +1,4 @@
+/logs
+/nginx/htpasswd
+*.lock
+/public_html/vendor
