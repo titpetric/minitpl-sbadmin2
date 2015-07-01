@@ -12,6 +12,7 @@ class TemplateEx extends Monotek\MiniTPL\Template
 			$data = json_decode(@file_get_contents($json_path . $json_file), true);
 			$this->assign($data);
 		}
+		return $res;
 	}
 }
 
