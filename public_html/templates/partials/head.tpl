@@ -34,9 +34,6 @@
 	<script>
 	var callbacks = [];
 	var $onload = function(cb) {
-		if (window.jQuery) {
-			return jQuery(cb);
-		}
 		callbacks.push(cb);
 		return $onload;
 	};

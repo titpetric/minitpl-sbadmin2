@@ -10,7 +10,8 @@
     <script src="/js/main.js"></script>
 
 	<script>
+		$onload = jQuery;
 		callbacks.forEach(function(cb) {
-	        jQuery(cb);
+			jQuery(cb);
 		});
 	</script>
